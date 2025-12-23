@@ -19,9 +19,9 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "3001:3001"
+      - "3332:3332"
     environment:
-      - PORT=3001
+      - PORT=3332
       - NODE_ENV=development
       - DB_HOST=postgres
       - DB_PORT=5432
