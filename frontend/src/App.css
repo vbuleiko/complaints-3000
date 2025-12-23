@@ -1,0 +1,21 @@
+.app-container {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+.ant-layout {
+  background: transparent !important;
+}
+
+.ant-layout-header {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.content-wrapper {
+  padding: 24px;
+  max-width: 2400px;
+  margin: 0 auto;
+  width: 100%;
+}
